@@ -1,0 +1,28 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: cornflowerblue;
+}
+.container{
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "header header header"
+    "sidebar content sidebar"
+    "footer footer footer";
+}
+header{
+   grid-area: header;
+  /* background-color: cornflowerblue; */
+}
+aside{
+    grid-area: sidebar;
+    /* background-color: cornflowerblue; */
+}
+.content{
+    grid-area: content;
+    /* background-color: cornflowerblue; */
+}
+footer{
+    grid-area: footer;
+    /* background-color: lightsalmon; */
+}
